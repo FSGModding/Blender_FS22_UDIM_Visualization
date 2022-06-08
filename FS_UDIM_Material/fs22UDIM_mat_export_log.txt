@@ -1,0 +1,34 @@
+i3dio.exporter:export_blend_to_i3d:INFO: Blender version is: 3.1.2
+i3dio.exporter:export_blend_to_i3d:INFO: I3D Exporter version is: 4.1.0
+i3dio.exporter:export_blend_to_i3d:INFO: Exported using 'lxml'
+i3dio.exporter:export_blend_to_i3d:INFO: Exporting to C:\Users\jtsag\Desktop\ModEdit\__my_mods\Blender_FS_UDIM_Material\dist\fs22UDIM_mat.i3d
+i3dio.exporter:_export_selected_objects:INFO: 'Selected Objects' export is selected'
+i3dio.exporter:_add_object_to_i3d:DEBUG: [UDIMTestGrid] is of type 'MESH'
+i3dio.node_classes.node.ShapeNode:_create_xml_element:DEBUG: [UDIMTestGrid] Filling out basic attributes, {name='UDIMTestGrid', nodeId='1'}
+i3dio.node_classes.shape.EvaluatedMesh:generate_evaluated_mesh:DEBUG: [Cube.002] is exported with modifiers applied
+i3dio.node_classes.shape.EvaluatedMesh:generate_evaluated_mesh:DEBUG: [Cube.002] applying unit scaling
+i3dio.node_classes.node.IndexedTriangleSet:_create_xml_element:DEBUG: [Cube.002] Filling out basic attributes, {name='Cube.002', nodeId='1'}
+i3dio.node_classes.node.IndexedTriangleSet:populate_from_evaluated_mesh:INFO: [Cube.002] Has material 'UDIMTileVisualization'
+i3dio.i3d.I3D:add_material:DEBUG: [fs22UDIM_mat] New Material
+i3dio.node_classes.node.Material:_create_xml_element:DEBUG: [UDIMTileVisualization] Filling out basic attributes, {name='UDIMTileVisualization', nodeId='1'}
+i3dio.node_classes.node.Material:_resolve_with_nodes:WARNING: [UDIMTileVisualization] Uses nodes but Principled BSDF node is not found!
+i3dio.node_classes.node.Material:_resolve_with_nodes:DEBUG: [UDIMTileVisualization] Has no Glossmap
+i3dio.node_classes.node.IndexedTriangleSet:process_subsets:DEBUG: [Cube.002] Subset with index [0] based on material 'UDIMTileVisualization'
+i3dio.node_classes.node.IndexedTriangleSet:process_subset:DEBUG: [Cube.002] Processing subset: materialId="1" numTriangles="696" firstIndex="0" firstVertex="0" numIndices="0" numVertices="0"
+i3dio.node_classes.node.IndexedTriangleSet:process_subset:DEBUG: [Cube.002] Has subset 'UDIMTileVisualization' with '696' triangles and materialId="1" numTriangles="696" firstIndex="0" firstVertex="0" numIndices="2088" numVertices="1392"
+i3dio.node_classes.node.IndexedTriangleSet:populate_xml_element:DEBUG: [Cube.002] Has '1' subsets, '696' triangles and '1392' vertices
+i3dio.node_classes.node.ShapeNode:populate_xml_element:DEBUG: [UDIMTestGrid] has shape ID '1'
+i3dio.xml_i3d:write_i3d_properties:INFO: Writing non-default properties from propertygroup: 'I3DNodeObjectAttributes'
+i3dio.xml_i3d:write_i3d_properties:INFO: Wrote '0' properties
+i3dio.xml_i3d:write_i3d_properties:INFO: Writing non-default properties from propertygroup: 'I3DNodeShapeAttributes'
+i3dio.xml_i3d:write_i3d_properties:INFO: Wrote '0' properties
+i3dio.node_classes.node.ShapeNode:_add_transform_to_xml_element:DEBUG: [UDIMTestGrid] transforming to new transform-basis with <Matrix 4x4 (1.0000,  0.0000,  0.0000, -1.0000)
+            (0.0000, -0.0000, -1.0000,  6.1749)
+            (0.0000,  1.0000, -0.0000, -7.8530)
+            (0.0000,  0.0000,  0.0000,  1.0000)>
+i3dio.node_classes.node.ShapeNode:_add_transform_to_xml_element:DEBUG: [UDIMTestGrid] translation is <Vector (-1.0000, 6.1749, -7.8530)>
+i3dio.node_classes.node.ShapeNode:_add_transform_to_xml_element:DEBUG: [UDIMTestGrid] has translation: [-1 6.17492 -7.85299]
+i3dio.node_classes.node.ShapeNode:_add_transform_to_xml_element:DEBUG: [UDIMTestGrid] has rotation(degrees): [90 -0 0]
+i3dio.node_classes.node.ShapeNode:__init__:DEBUG: [UDIMTestGrid] Initialized as a 'ShapeNode'
+i3dio.exporter:_add_object_to_i3d:DEBUG: [UDIMTestGrid] processing objects children
+i3dio.exporter:_add_object_to_i3d:DEBUG: [UDIMTestGrid] no more children to process in object
