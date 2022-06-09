@@ -8,7 +8,7 @@ At least blender 3.0, probably 3.1
 
 ## Installing
 
-Download the blend file and the folder of images.  Put the folder of images the same place as the blend file.
+Download the blend file.  Requires no external files, the "colorMap" should already be in the blend file.
 
 ## To Use
 
@@ -17,16 +17,14 @@ Download the blend file and the folder of images.  Put the folder of images the 
 
 ### NOTES
 
-If you have only one mesh, be sure to give your original material a fake user so you don't lose it.
+If you have only one mesh, be sure to give your original material a fake user so you don't lose it (if needed)
 
-You can export with this (community exporter), but it does not use the default shader, so you'll have to set all of your vmask/normal/tangents by hand in GE.
+You can export with this (community exporter) - set your vmask and normal as usual (dummy files are already there)
 
 ## Options
 
-* __UDIM Tile Scale Factor__ Controls how big the little numbers are.  Inverted, so, larger number == smaller.
+* __UDIM Tile Scale Factor__ - Controls how big the little numbers are.  Inverted, so, larger number == smaller.
 
-* __Checker Scale__ Controls how big the checks in the check map are.  Inverted as well.
+* __UDIM Tile Brightness Scale__ - Controls how bright the colors are, 0 = black, 1 = default, 40 = really, really bright.
 
-* __Color Brightness__ Controls how bright the colors are, 0 = black, 1 = really bright.
-
-* __Extra Background File__ If blender is being difficult about letting you select your preferred background image in the UV editor, you can link it to the node.  It's used, so blender should be happier, but it's never shown in the rendering.
+* __colorMat0 - colorMat7__ - User Colors.  Note that setting them here does not set them in the exporter.  Maybe someday
