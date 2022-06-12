@@ -4,7 +4,7 @@ Mostly simple to use material that will help visualize the Giants UDIM system in
 
 ## Requirements
 
-At least blender 3.0, probably 3.1
+At least blender 2.93? (maybe earlier, not gonna test), although it might whine that it was made in 3.x
 
 ## Installing
 
