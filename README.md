@@ -27,6 +27,7 @@ There are 2 versions available:
 Both versions allow custom user material colors.
 
 ![All Characters](readme_vehicle_render_all.png)
+Shown above: the bottom row is colorMat 0->7, right above the yellow cow head starts material "00 : Painted Metal" through "49 : Fabric" running left to right, bottom to top
 
 ### GiantsVehicleShader_REAL
 
@@ -52,19 +53,23 @@ Both versions allow custom user material colors.
 
 ### Exporting
 
-To ease exporting with the community exporter (https://github.com/StjerneIdioten/I3D-Blender-Addon), there are dummy entries for your normal map and vmask.  In both versions, your normal map is applied to the mesh as well for visualization.
+To ease exporting with the community exporter: [I3D-Blender-Addon](https://github.com/StjerneIdioten/I3D-Blender-Addon), there are dummy entries for your normal map and vmask.  In both versions, your normal map is applied to the mesh as well for visualization.
 
 ![_GRID Settings](readme_vehicle_export.png)
 
 ## BuildingShader.XML
 
-![_GRID Settings](readme_building_render.png)
+![_GRID Settings](readme_single_building.png)
+Shown above: `-Diffuse` for the doghouse, the walls (yellowish) are in the colorScale0 space, `-Grid` for the base, again in colorScale0 space.
 
 Similar to the vehicle shader, there are 2 versions of this material available:
 
 * __GiantsBuildingShader-Diffuse__ - mixes pre-set user colors with a loaded diffuse texture file.
 
-* __GiantsBuildingShader-Grid__ - uses a color map grid in place colorScale uv space, and provides a place to set a base color for non-colorSCale uv space.
+* __GiantsBuildingShader-Grid__ - uses a color map grid in place colorScale uv space, and provides a place to set a base color for non-colorSCale uv space. Again, this material is likely to render faster as there is less computation involved.
+
+![_GRID Settings](readme_building_render.png)
+Shown above: The first doghouse uses no colorScale, then colorScale 0 -> 7 moving left to right.
 
 ### __GiantsBuildingShader-Diffuse__
 
